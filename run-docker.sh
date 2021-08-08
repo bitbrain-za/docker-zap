@@ -24,3 +24,4 @@ printf "\n"
 docker logs $CONTAINER_ID
 
 docker stop $CONTAINER_ID
+docker rm $CONTAINER_ID
