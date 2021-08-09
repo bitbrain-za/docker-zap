@@ -37,6 +37,8 @@ if [[ $* != *-t* ]]; then
 	exit 1
 fi
 
+mkdir reports
+
 CONTAINER_ID=$(docker run --name zap -u zap -d -p 8090:8080 -i            \
 	-v "$(pwd)/reports":/zap/reports/:rw \
 	owasp/zap2docker-stable zap.sh -daemon -host 0.0.0.0 -port 8080   \
