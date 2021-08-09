@@ -37,6 +37,6 @@ Flags:
 # TODO
 
 - [x] Make configurable
-- [] Check requirements are present before running script
-- [] Don't rm the container every time
-- [] Convert to pipeline
+- [ ] Check requirements are present before running script
+- [ ] Don't rm the container every time
+- [ ] Convert to pipeline
