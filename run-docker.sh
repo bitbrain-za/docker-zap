@@ -38,6 +38,7 @@ if [[ $* != *-t* ]]; then
 fi
 
 mkdir reports
+chmod 777 reports
 
 CONTAINER_ID=$(docker run --name zap -u zap -d -p 8090:8080 -i            \
 	-v "$(pwd)/reports":/zap/reports/:rw \
