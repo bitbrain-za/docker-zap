@@ -23,8 +23,20 @@ Flags:
 | a | Y | Alert level (High|Medium|Low) | Medium |
 | h | Y | Show  help | |
 
+# Jenkins Integration
+
+## Source 
+ ![Sources](/assets/sources.png)
+
+## Build 
+ ![Build](/assets/build.png)
+
+## Report 
+ ![Report](/assets/report.png)
+
 # TODO
 
 - [x] Make configurable
 - [] Check requirements are present before running script
 - [] Don't rm the container every time
+- [] Convert to pipeline
